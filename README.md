@@ -22,7 +22,7 @@ The code examples included in this directory cover the following functionalities
 - Data Transformation: Apply transformations, merge/join datasets, and perform complex calculations on data.
 
 ## Dependencies
-See requirements.txt for the specific library versions used in these examples.
+See [requirements.txt](.examples/custom-code-in-automation-designer/requirements.txt) for the specific library versions used in these examples.
 
 ## chem-sync-local-flask
 
