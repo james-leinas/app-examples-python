@@ -2,17 +2,27 @@
 
 The `examples/` directory contains Benchling App samples written by Benchling.
 
-## custom-code-in-automation-designer
-Example snippets of code that can be utilized in a Custom Code step of the Automation-Designer with Benchling Analysis.
+## Custom Code in Automation Designer
+This project contains example snippets of code that can be utilized in a Custom Code step of the Benchling Automation Designer with Benchling Analysis.
 
 ![image info](./examples/custom-code-in-automation-designer/docs/Example_Chromatogram_Plot.gif)
 
-**Code Includes:**
-* Custom Code to create visualizations (charting/annotations)
-* Custom Code to parse files 
-* Custom Code to create a new file (e.g instruction for instruments)
-* Custom Code to apply transformations, merging/joining, and/or calculations of dataset(s)
+## Overview
+These examples demonstrate how to extend Benchling's native capabilities using Python scripts within the Automation Designer context. They cover common use cases such as data visualization, file handling, and complex data transformations.
 
+## Key Capabilities
+The code examples included in this directory cover the following functionalities:
+
+- Visualizations: Create custom charts, graphs, and annotations (e.g., chromatograms).
+
+- File Parsing: Logic to read and parse various file formats.
+
+- File Creation: Generate new files, such as instruction lists for laboratory instruments.
+
+- Data Transformation: Apply transformations, merge/join datasets, and perform complex calculations on data.
+
+## Dependencies
+See requirements.txt for the specific library versions used in these examples.
 
 ## chem-sync-local-flask
 
