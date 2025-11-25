@@ -1,0 +1,10 @@
+allotropy==0.1.105
+numpy==2.2.4
+openpyxl==3.1.5
+pandas==2.2.3
+plotly==5.22.0
+pyarrow==19.0.1
+pydantic==1.10.21
+scikit-learn==1.6.1
+scipy==1.15.2
+statsmodels==0.14.4
