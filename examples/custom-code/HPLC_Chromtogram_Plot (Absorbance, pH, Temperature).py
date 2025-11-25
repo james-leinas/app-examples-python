@@ -7,7 +7,7 @@ class IOData(NamedTuple):
     name: str
     data: BytesIO | pd.DataFrame | go.Figure
 
-def custom_code(inputs: list[IOData], benchling: Benchling | None = None) -> list[IOData]:
+def custom_code(inputs: list[IOData], **kwargs) -> list[IOData]:
     df = inputs[0].data
     # Extract the relevant data series and convert them to floats
     absorbance_data = df['absorbance (mAU)'].astype(float) 
