@@ -1,6 +1,6 @@
-# Benchling App Python Examples
+# Benchling Python Examples
 
-The `examples/` directory contains Benchling App samples written by Benchling.
+A collection of Python reference examples for the Benchling platform.
 
 ## chem-sync-local-flask
 
@@ -20,3 +20,22 @@ in a local development environment running [Flask](https://flask.palletsprojects
 * Data Mapping via [App Config](https://docs.benchling.com/docs/app-configuration)
 * Receiving and verifying [Webhooks](https://docs.benchling.com/docs/getting-started-with-webhooks)
 * Creating [molecule custom entities](https://benchling.com/api/reference#/Molecules/createMolecule)
+
+## Custom Code in Automation Designer
+This project contains example snippets of code that can be utilized in a Custom Code step of the Benchling Automation Designer with Benchling Analysis.
+
+![image info](./examples/custom-code-in-automation-designer/snippets/plot-chromatogram/docs/Example_Chromatogram_Plot.gif)
+
+## Overview
+These examples demonstrate how to extend Benchling's native capabilities using Python scripts within the Automation Designer context. They cover common use cases such as data visualization, file handling, and complex data transformations.
+
+## Key Capabilities
+The code examples included in this directory cover the following functionalities:
+
+- Visualizations: Create custom charts, graphs, and annotations (e.g., chromatograms).
+
+- File Parsing: Logic to read and parse various file formats.
+
+- File Creation: Generate new files, such as instruction lists for laboratory instruments.
+
+- Data Transformation: Apply transformations, merge/join datasets, and perform complex calculations on data.
