@@ -3,7 +3,8 @@
 Supported packages:
 
 allotropy
-benchling-sdk
+biopython
+lmfit
 numpy
 openpyxl
 pandas

@@ -1,7 +1,11 @@
 """
 Supported packages:
 
+# Packages supported in this template snippet may differ from what is available in Benchling as we expand coverage.
+
 allotropy
+biopython
+lmfit
 numpy
 openpyxl
 pandas
